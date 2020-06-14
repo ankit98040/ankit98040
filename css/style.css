@@ -59,7 +59,7 @@ a span:nth-child(3){
 a:hover span:nth-child(3){
 	right: 100%;
 	transition: 1s;
-	transition-delay: 0.5s;
+
 }
 
 
@@ -74,7 +74,7 @@ a span:nth-child(2){
 a:hover span:nth-child(2){
 	top: 100%;
 	transition: 1s;
-	transition-delay: 0.25s;
+	transition-delay: 0.5s;
 }
 
 a span:nth-child(4){
@@ -88,8 +88,5 @@ a span:nth-child(4){
 a:hover span:nth-child(4){
 	bottom: 100%;
 	transition: 1s;
-	transition-delay: 0.75s;
+	transition-delay: 0.5s;
 }
-
-
-
