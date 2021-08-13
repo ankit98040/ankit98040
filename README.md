@@ -14,7 +14,7 @@
 
 - 🤝 I’m looking to work on **Projects**
 
-- 📝 I regularly write articles on [https://archishman1808.medium.com/](https://pramanik-85849.medium.com)
+- 📝 I regularly write articles on (https://pramanik-85849.medium.com)
 
 - 💬 Ask me about **anything related to Cloud & DevOps**
 
@@ -24,7 +24,8 @@
 
 ## Experience
 
-Cloud Engineer @ TAFZS
+Software Engineer @ MediaAgility 
+(#Agilite)
 
 ![github](https://user-images.githubusercontent.com/71402528/106022694-225cfd80-60ec-11eb-9d3d-78cf6bf8d2ef.gif)
 
