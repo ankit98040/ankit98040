@@ -6,7 +6,7 @@
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ankit98040&theme=dracula" alt="ankit98040" /></a> </p>
 
-- 🔭 I’m currently working on **AWS & DevOps**
+- 🔭 I’m currently working on **Cloud - AWS, GCP & DevOps - Terraform, Kubernetes, Docker, Ansible, Jenkins**
 
 - 🌱 I’m currently learning **DevOps (Ansible, Docker, Terraform, Kubernetes) & Multi Cloud as well as Hybrid Cloud **
 
