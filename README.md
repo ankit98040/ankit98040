@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ankit Pramanik</h1>
 <h3 align="center">I'm a Cloud-DevOps Enthusiast</h3>
-<h3 align="center">3x GCP (Professional Cloud Architect, Associate Cloud Engineer, Cloud Digital Leader), Terraform Certified</h3>
+<h3 align="center">5x GCP (Professional Cloud Architect, Associate Cloud Engineer, Cloud Digital Leader), Terraform Certified</h3>
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ankit98040&label=Profile%20views&color=0e75b6&style=flat" alt="ankit98040" /> </p>
