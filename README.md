@@ -8,8 +8,8 @@ Tip: GitHub renders HTML + Markdown. Some widgets are external images; if any go
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&center=true&vCenter=true&width=900&lines=AWS+%2B+GCP+Platform+%7C+DevOps+%7C+SRE;Infrastructure+as+Code+%28Terraform+%2F+CloudFormation%29;Kubernetes+%28EKS+%2F+GKE%29+%7C+Containers+%28ECS%2C+Docker%29;CI%2FCD+%28GitHub+Actions%2C+GitLab+CI%2C+Jenkins%29;Observability+%28Prometheus%2C+Grafana%2C+CloudWatch%29;DevSecOps+%7C+FinOps+%7C+Operational+Excellence">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&center=true&vCenter=true&width=900&lines=AWS+%2B+GCP+Platform+%7C+DevOps+%7C+SRE;Infrastructure+as+Code+%28Terraform+%2F+CloudFormation%29;Kubernetes+%28EKS+%2F+GKE%29+%7C+Containers+%28ECS%2C+Docker%29;CI%2FCD+%28GitHub+Actions%2C+GitLab+CI%2C+Jenkins%29;Observability+%28Prometheus%2C+Grafana%2C+CloudWatch%29;DevSecOps+%7C+FinOps+%7C+Operational+Excellence" alt="typing" />
+  <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&center=true&vCenter=true&width=900&lines=AWS+%2B+GCP+Platform+%7C+DevOps+%7C+SRE;Infrastructure+as+Code+%28Terraform+%2F+CloudFormation%29;Kubernetes+%28EKS+%2F+GKE%29+%7C+Containers+%28ECS%2C+Docker%29;CI%2FCD+%28GitHub+Actions%2C+GitLab+CI%2C+Jenkins%29;DevSecOps+%7C+MLOps+%7C+Open+Source;Observability+%28Prometheus%2C+Grafana%2C+CloudWatch%29;FinOps+%7C+Operational+Excellence">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&center=true&vCenter=true&width=900&lines=AWS+%2B+GCP+Platform+%7C+DevOps+%7C+SRE;Infrastructure+as+Code+%28Terraform+%2F+CloudFormation%29;Kubernetes+%28EKS+%2F+GKE%29+%7C+Containers+%28ECS%2C+Docker%29;CI%2FCD+%28GitHub+Actions%2C+GitLab+CI%2C+Jenkins%29;DevSecOps+%7C+MLOps+%7C+Open+Source;Observability+%28Prometheus%2C+Grafana%2C+CloudWatch%29;FinOps+%7C+Operational+Excellence" alt="typing" />
   </a>
 </p>
 
@@ -39,9 +39,10 @@ Tip: GitHub renders HTML + Markdown. Some widgets are external images; if any go
 I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **5+ years** building reliable, secure, and scalable infrastructure across **AWS & GCP**.
 
 - 🔧 I enjoy **platform engineering**, **automation**, and **operational excellence**
-- 🛡️ Strong focus on **DevSecOps** (security baked into delivery)
-- 📈 FinOps mindset: right-sizing, cost visibility, and guardrails
-- 🧠 Exploring the intersection of **AI + DevOps** to make deployments smarter
+- 🛡️ Strong focus on **DevSecOps** (integrating static analysis, container audits, and compliance into delivery pipelines)
+- 🤖 Deep interest in **MLOps** (orchestrating ML pipelines, model serving platforms, and optimizing GPU-enabled Kubernetes workloads)
+- 🤝 Passionate about **Open Source** (contributing to community-led tooling, automation libraries, and cloud-native standards)
+- 📈 FinOps mindset: right-sizing, cost visibility, and cloud guardrails
 
 ---
 
@@ -58,6 +59,8 @@ I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **5+ ye
   <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions%20%7C%20GitLab%20CI%20%7C%20Jenkins-2088FF?style=flat&logo=githubactions&logoColor=white"/>
   <img src="https://img.shields.io/badge/Observability-Prometheus%20%7C%20Grafana%20%7C%20CloudWatch-000000?style=flat&logo=grafana&logoColor=white"/>
   <img src="https://img.shields.io/badge/DevSecOps-Trivy%20%7C%20HoruSec-2E7D32?style=flat"/>
+  <img src="https://img.shields.io/badge/MLOps-MLflow%20%7C%20Kubeflow-FF6F00?style=flat&logo=kubeflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Open%20Source-CNCF-blue?style=flat&logo=cncf&logoColor=white"/>
 </p>
 
 ---
