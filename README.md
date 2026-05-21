@@ -36,7 +36,7 @@ Tip: GitHub renders HTML + Markdown. Some widgets are external images; if any go
 
 ## 👨‍💻 About me
 
-I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **5+ years** building reliable, secure, and scalable infrastructure across **AWS & GCP**.
+I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **4.9 years of experience** building reliable, secure, and scalable infrastructure across **AWS & GCP**.
 
 - 🔧 I enjoy **platform engineering**, **automation**, and **operational excellence**
 - 🛡️ Strong focus on **DevSecOps** (integrating static analysis, container audits, and compliance into delivery pipelines)
@@ -82,24 +82,34 @@ I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **5+ ye
 ## 🧑‍💼 Experience
 
 <details>
-  <summary><b>Razor Group — Developer Platform Engineer</b> (Oct 2025 – Present) · Hyderabad</summary>
+  <summary><b>CES Information Technologies Pvt Ltd — Senior Software Engineer (DevOps)</b> (Jan 2026 – Present) · Hyderabad, India</summary>
 
-  - Multi-cloud platform engineering across **AWS & GCP**
-  - IaC standardization with **Terraform + CloudFormation** (repeatable, secure, auditable)
-  - Container platforms on **EKS/ECS**
-  - **FinOps** guardrails & cost optimization across 25+ AWS accounts
-  - CI/CD enablement with **GitHub Actions** for multiple products
-  - DevSecOps controls integrated into pipelines and infra baselines
+  - Led the design and implementation of a staging environment enabling scalable infrastructure provisioning and standardized deployment practices across production workloads
+  - Drove **FinOps** initiatives across **25+ AWS accounts**, implementing cost optimization and resource right-sizing strategies that resulted in up to a **20% reduction** in annual cloud spend
+  - Built and enhanced CI/CD workflows using **GitHub Actions** for **5+ products**, enabling faster, more reliable deployments
+  - Developed a modular Terraform-based infrastructure architecture, creating reusable modules for application provisioning
+  - Built a DevSecOps AI agent using **Sim.ai** to automate code testing, security scanning, and application protection
 </details>
 
 <details>
-  <summary><b>Persistent Systems — DevOps Engineer</b> (Aug 2021 – Oct 2025) · Kolkata</summary>
+  <summary><b>Razor Group — Developer Platform Engineer</b> (Oct 2025 – Jan 2026) · Hyderabad</summary>
 
-  - Designed/owned CI/CD pipelines; automated testing + rollback strategies
-  - Optimized container builds and Kubernetes rollouts on **EKS + GKE**
-  - Monitoring and alerting with **CloudWatch, Prometheus, Grafana** (plus enterprise tooling)
-  - Automated ops workflows with **Bash**, cutting repetitive effort significantly
-  - Drove DevSecOps adoption with **Trivy + HoruSec**
+  - Multi-cloud platform engineering across **AWS & GCP** using **Terraform + CloudFormation** (reducing manual setup by **~40%**)
+  - Deployed and operated data engineering workloads on **Amazon EKS & ECS**
+  - Partnered with engineering, security, and product teams to deliver secure, stable development and production environments
+  - Embedded **DevSecOps** and cloud security best practices into workflows, resolving **30+ critical vulnerabilities**
+  - Created operational SOPs and documentation, improving onboarding efficiency by **~25%**
+</details>
+
+<details>
+  <summary><b>Persistent Systems — Lead Software Engineer (DevOps)</b> (Aug 2021 – Oct 2025) · Kolkata, India</summary>
+
+  - Designed CI/CD pipelines using **Jenkins, GitLab CI, and GitHub Actions**, reducing deployment times by **60%** and release failures by **35%**
+  - Optimized Docker images through multi-stage builds, reducing sizes by **~80%** and improving security
+  - Managed container workloads on **Kubernetes (EKS/GKE)**, achieving a **30% drop** in compute resource usage
+  - Configured monitoring and alerting in **AWS CloudWatch & Icinga**, reducing incident response time by **40%**
+  - Automated ops tasks with **Bash**, boosting platform efficiency by **70%**
+  - Led DevSecOps practices with **HoruSec + Trivy**, reducing code quality issues by **45%** and accelerating feedback loops by **70%**
 </details>
 
 ---
