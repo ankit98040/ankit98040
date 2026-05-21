@@ -36,7 +36,7 @@ Tip: GitHub renders HTML + Markdown. Some widgets are external images; if any go
 
 ## 👨‍💻 About me
 
-I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **4.5+ years** building reliable, secure, and scalable infrastructure across **AWS & GCP**.
+I’m **Ankit Pramanik** — a **DevOps / SRE / Platform Engineer** with **5+ years** building reliable, secure, and scalable infrastructure across **AWS & GCP**.
 
 - 🔧 I enjoy **platform engineering**, **automation**, and **operational excellence**
 - 🛡️ Strong focus on **DevSecOps** (security baked into delivery)
