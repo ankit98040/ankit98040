@@ -1,27 +1,552 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>A N K I T</title>
-  <link rel="stylesheet" type="text/css" href="css/style2.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankit Pramanik | Platform Engineer & DevOps Specialist</title>
+  <meta name="description" content="Portfolio of Ankit Pramanik - DevOps, SRE, and Platform Engineer. Exploring DevSecOps, MLOps, and Open Source.">
   
+  <!-- FontAwesome CDN for modern vector icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-  <a href="Text.html">
-    <section>
-    <video src="Smoke.mp4" autoplay muted></video>
-    <h1>
-      <span>A</span>
-      <span>N</span>
-      <span>K</span>
-      <span>I</span>
-      <span>T</span>
-    </h1>
 
-    
+  <!-- Background Decorative Glowing Lights -->
+  <div class="bg-glow-1"></div>
+  <div class="bg-glow-2"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-brand">ANKIT PRAMANIK</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#focus">Focus Areas</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Connect</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-status">
+            <span class="status-dot"></span>
+            <span>System Status: Active | Open to collaborations</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <br><span class="gradient">Ankit Pramanik</span>
+          </h1>
+          <div class="hero-typing">
+            <span id="typed-text"></span><span class="typing-cursor"></span>
+          </div>
+          <p class="hero-description">
+            A Platform / DevOps / SRE Engineer with 5+ years of experience designing, automating, and securing cloud infrastructure across AWS & GCP.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get In Touch <i class="fas fa-arrow-right"></i></a>
+            <a href="#experience" class="btn btn-secondary">View Experience</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- Terminal Window Mockup -->
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="terminal-buttons">
+                <span class="btn-close"></span>
+                <span class="btn-minimize"></span>
+                <span class="btn-maximize"></span>
+              </div>
+              <div class="terminal-title">bash - ankit@ops-core:~</div>
+              <div></div>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-line">
+                <span class="terminal-prompt">systemctl status profile-diagnostics.service</span>
+              </div>
+              <div class="terminal-line output">
+                <div>● profile-diagnostics.service - Ankit's Core Info</div>
+                <div>&nbsp;&nbsp;&nbsp;Loaded: loaded (/etc/systemd/system/profile-diagnostics.service)</div>
+                <div>&nbsp;&nbsp;&nbsp;Active: <span class="t-green">active (running)</span> since Wed 2021-08-11</div>
+                <div>&nbsp;&nbsp;&nbsp;Main PID: 98040 (<span class="t-cyan">platform-ops</span>)</div>
+                <div>&nbsp;&nbsp;&nbsp;CGroup: /system.slice/profile-diagnostics.service</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─<span class="t-cyan">devsecops</span> --scan-continuous --trivy</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─<span class="t-purple">mlops</span> --orchestrate --kubeflow</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─<span class="t-orange">opensource</span> --contribute --cncf</div>
+              </div>
+              <div class="terminal-line">
+                <span class="terminal-prompt">./check_cloud_efficiency.sh</span>
+              </div>
+              <div class="terminal-line output">
+                <div>[<span class="t-green">INFO</span>] Cost Optimization: active (~20% annual reduction)</div>
+                <div>[<span class="t-green">INFO</span>] Deployments Speed: optimized (~60% faster runs)</div>
+                <div>[<span class="t-green">INFO</span>] Infrastructure: IaC managed (100% Terraform/CFN)</div>
+              </div>
+              <div class="terminal-line">
+                <span class="terminal-prompt"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  </a>
 
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Diagnostics</span>
+        <h2 class="section-title">About <span>Me</span></h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a Developer Platform Engineer with over 5 years of industry experience automating software delivery, building scalable multi-cloud infrastructure, and enforcing DevSecOps best practices on AWS and GCP.
+          </p>
+          <p>
+            Currently working at Razor Group, I focus on developer enablement, containerization orchestration using Kubernetes, infrastructure reproducibility using Terraform and CloudFormation, and robust FinOps guardrails to optimize cloud costs.
+          </p>
+          <p>
+            I thrive at the intersection of developer productivity and infrastructure safety, actively contributing to internal platforms and open-source practices.
+          </p>
+        </div>
 
+        <div class="about-details">
+          <div class="about-info-item">
+            <span class="info-label">Full Name</span>
+            <span class="info-val">Ankit Pramanik</span>
+          </div>
+          <div class="about-info-item">
+            <span class="info-label">Role</span>
+            <span class="info-val">Platform / DevOps / SRE</span>
+          </div>
+          <div class="about-info-item">
+            <span class="info-label">Email</span>
+            <span class="info-val"><a href="mailto:pramanik.85849@gmail.com" class="t-cyan">pramanik.85849@gmail.com</a></span>
+          </div>
+          <div class="about-info-item">
+            <span class="info-label">Phone</span>
+            <span class="info-val"><a href="tel:+919804019155" class="t-cyan">+91 9804019155</a></span>
+          </div>
+          <div class="about-info-item">
+            <span class="info-label">Experience</span>
+            <span class="info-val">5+ Years</span>
+          </div>
+          <div class="about-info-item">
+            <span class="info-label">Location</span>
+            <span class="info-val">Hyderabad / Kolkata, India</span>
+          </div>
+        </div>
+      </div>
 
+      <!-- Core Interest Pillars -->
+      <h3 class="pillars-title">Core Focus Areas</h3>
+      <div class="pillars-grid" id="focus">
+        
+        <!-- Open Source -->
+        <div class="pillar-card opensource">
+          <div class="pillar-icon">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <h3>Open Source</h3>
+          <p>
+            Advocating for community-driven software by contributing to cloud-native technologies, sharing automation runbooks, and maintaining scripts that help engineers build reliably.
+          </p>
+          <div class="pillar-tags">
+            <span class="pillar-tag">CNCF</span>
+            <span class="pillar-tag">GitOps</span>
+            <span class="pillar-tag">Community</span>
+          </div>
+        </div>
+
+        <!-- DevSecOps -->
+        <div class="pillar-card devsecops">
+          <div class="pillar-icon">
+            <i class="fas fa-shield-halved"></i>
+          </div>
+          <h3>DevSecOps</h3>
+          <p>
+            Shifting security left by embedding container security scanning, pipeline static analysis, cloud config audits, and automated remediation systems directly into release pipelines.
+          </p>
+          <div class="pillar-tags">
+            <span class="pillar-tag">Trivy</span>
+            <span class="pillar-tag">HoruSec</span>
+            <span class="pillar-tag">IaC Security</span>
+          </div>
+        </div>
+
+        <!-- MLOps -->
+        <div class="pillar-card mlops">
+          <div class="pillar-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>MLOps</h3>
+          <p>
+            Building reproducible infrastructure for machine learning. Automating training pipelines, managing model serving clusters, and scaling GPU node groups on Kubernetes.
+          </p>
+          <div class="pillar-tags">
+            <span class="pillar-tag">Kubeflow</span>
+            <span class="pillar-tag">MLflow</span>
+            <span class="pillar-tag">GPU Scaling</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Capabilities</span>
+        <h2 class="section-title">Technical <span>Stack</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Cloud & IaC -->
+        <div class="skill-category">
+          <h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
+          <div class="skill-list">
+            <div class="skill-badge"><i class="fab fa-aws" style="color: #FF9900;"></i> AWS</div>
+            <div class="skill-badge"><i class="fab fa-google" style="color: #4285F4;"></i> Google Cloud (GCP)</div>
+            <div class="skill-badge"><i class="fas fa-square-poll-horizontal" style="color: #7B42BC;"></i> Terraform</div>
+            <div class="skill-badge"><i class="fas fa-cubes" style="color: #FF9900;"></i> CloudFormation</div>
+            <div class="skill-badge"><i class="fas fa-network-wired" style="color: #06b6d4;"></i> FinOps & Cost Controls</div>
+          </div>
+        </div>
+
+        <!-- Containers & Orchestration -->
+        <div class="skill-category">
+          <h3><i class="fas fa-dharmachakra"></i> Orchestration & Containers</h3>
+          <div class="skill-list">
+            <div class="skill-badge"><i class="fas fa-dharmachakra" style="color: #326CE5;"></i> Kubernetes (EKS / GKE)</div>
+            <div class="skill-badge"><i class="fab fa-docker" style="color: #2496ED;"></i> Docker / Multi-stage Builds</div>
+            <div class="skill-badge"><i class="fas fa-box-open" style="color: #FF9900;"></i> ECS & AWS Fargate</div>
+          </div>
+        </div>
+
+        <!-- CI/CD & SecOps -->
+        <div class="skill-category">
+          <h3><i class="fas fa-rotate"></i> CI/CD, Scripting & SecOps</h3>
+          <div class="skill-list">
+            <div class="skill-badge"><i class="fab fa-github-alt" style="color: #2088FF;"></i> GitHub Actions</div>
+            <div class="skill-badge"><i class="fab fa-gitlab" style="color: #FCA121;"></i> GitLab CI/CD</div>
+            <div class="skill-badge"><i class="fab fa-jenkins" style="color: #D24939;"></i> Jenkins Pipelines</div>
+            <div class="skill-badge"><i class="fas fa-terminal" style="color: #4EAA25;"></i> Bash & Linux Ops</div>
+            <div class="skill-badge"><i class="fas fa-shield-halved" style="color: #10b981;"></i> Trivy & HoruSec Scanning</div>
+            <div class="skill-badge"><i class="fas fa-robot" style="color: #a855f7;"></i> Ansible Automation</div>
+          </div>
+        </div>
+
+        <!-- Observability & MLOps -->
+        <div class="skill-category">
+          <h3><i class="fas fa-chart-line"></i> Observability & MLOps</h3>
+          <div class="skill-list">
+            <div class="skill-badge"><i class="fas fa-fire" style="color: #E6522C;"></i> Prometheus</div>
+            <div class="skill-badge"><i class="fas fa-chart-area" style="color: #F47A20;"></i> Grafana</div>
+            <div class="skill-badge"><i class="fas fa-eye" style="color: #FF9900;"></i> CloudWatch</div>
+            <div class="skill-badge"><i class="fas fa-gears" style="color: #FF6F00;"></i> Kubeflow Pipelines</div>
+            <div class="skill-badge"><i class="fas fa-chart-simple" style="color: #0194E2;"></i> MLflow Registry</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Metrics Section -->
+  <section id="metrics">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Performance Logs</span>
+        <h2 class="section-title">Impact & <span>Metrics</span></h2>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-num">~20%</div>
+          <div class="metric-label">Cloud Cost Reduction (FinOps)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">~60%</div>
+          <div class="metric-label">CI/CD Deployment Time Cut</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">~40%</div>
+          <div class="metric-label">Manual Setup Time Saved (IaC)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">99.9%+</div>
+          <div class="metric-label">Maintained Production Uptime</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">History</span>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+      </div>
+
+      <div class="timeline">
+        
+        <!-- Job 1 -->
+        <div class="timeline-item active">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header-info">
+              <div>
+                <h3 class="timeline-role">Developer Platform Engineer</h3>
+                <div class="timeline-company">Razor Group</div>
+              </div>
+              <span class="timeline-date">Oct 2025 – Present</span>
+            </div>
+            <div class="timeline-loc"><i class="fas fa-location-dot"></i> Hyderabad, India</div>
+            <ul class="timeline-body-list">
+              <li>Manage multi-cloud platform engineering operations across AWS & GCP.</li>
+              <li>Standardize Infrastructure as Code (IaC) architectures with Terraform and CloudFormation.</li>
+              <li>Orchestrate container platform deployments using AWS EKS and ECS.</li>
+              <li>Enforce FinOps guidelines and cost optimization parameters across 25+ distinct AWS accounts.</li>
+              <li>Automate products release orchestration utilizing GitHub Actions.</li>
+              <li>Inject container scanning and DevSecOps linting configurations into baseline pipeline standards.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header-info">
+              <div>
+                <h3 class="timeline-role">DevOps Engineer</h3>
+                <div class="timeline-company">Persistent Systems</div>
+              </div>
+              <span class="timeline-date">Aug 2021 – Oct 2025</span>
+            </div>
+            <div class="timeline-loc"><i class="fas fa-location-dot"></i> Kolkata, India</div>
+            <ul class="timeline-body-list">
+              <li>Engineered robust pipelines supporting zero-downtime rollouts and quick-rollback capabilities.</li>
+              <li>Built and optimized container build workflows and deployments on EKS and GKE.</li>
+              <li>Integrated monitoring infrastructures using Prometheus, Grafana, and AWS CloudWatch.</li>
+              <li>Authored complex Bash scripting utilities to handle manual tasks automatically.</li>
+              <li>Led internal security auditing setups by integrating Trivy and HoruSec scanners in CI/CD.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications & <span>Awards</span></h2>
+      </div>
+
+      <div class="certs-grid">
+        
+        <!-- Cert 1 -->
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fab fa-google"></i></div>
+          <div class="cert-info">
+            <h3>5x Google Cloud Certified</h3>
+            <p>Professional Cloud DevOps, Professional Architect, Professional Developer, ACE, CDL</p>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-terminal"></i></div>
+          <div class="cert-info">
+            <h3>Terraform Certified</h3>
+            <p>HashiCorp Certified Terraform Associate</p>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-trophy"></i></div>
+          <div class="cert-info">
+            <h3>Marigold Hackathon</h3>
+            <p>1st Runner-up - Global Hackathon 2025</p>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-star"></i></div>
+          <div class="cert-info">
+            <h3>Top Talent FY-23</h3>
+            <p>Awarded at Persistent Systems for Delivery across 5+ Projects</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact/Connect Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's <span>Connect</span></h2>
+      </div>
+
+      <div class="connect-container">
+        <p class="connect-intro">
+          I'm always open to discussing platform architectures, MLOps orchestration, DevSecOps strategy, or open-source projects. Feel free to reach out directly:
+        </p>
+        
+        <a href="mailto:pramanik.85849@gmail.com" class="connect-email">pramanik.85849@gmail.com</a>
+        
+        <div class="social-grid">
+          <a href="https://www.linkedin.com/in/ankit-pramanik-devops/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/ankit98040" target="_blank" rel="noopener noreferrer" class="social-btn github" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://pramanik-85849.medium.com" target="_blank" rel="noopener noreferrer" class="social-btn medium" title="Medium">
+            <i class="fab fa-medium-m"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCqZ-9yBJFBL6Di7xV6IxZ_g" target="_blank" rel="noopener noreferrer" class="social-btn youtube" title="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.instagram.com/ankit_9804/" target="_blank" rel="noopener noreferrer" class="social-btn instagram" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/salenagomez2012" target="_blank" rel="noopener noreferrer" class="social-btn facebook" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Ankit Pramanik. Built with passion for Open Source, DevSecOps, & MLOps.</p>
+    </div>
+  </footer>
+
+  <!-- Script for typing text and interactiveness -->
+  <script>
+    // Typing animation logic
+    const typedTextSpan = document.getElementById("typed-text");
+    const roles = [
+      "Platform Engineer",
+      "DevOps Specialist",
+      "SRE Professional",
+      "DevSecOps Practitioner",
+      "MLOps Architect",
+      "Open Source Contributor"
+    ];
+    
+    let roleIndex = 0;
+    let charIndex = 0;
+    let typingSpeed = 100;
+    let erasingSpeed = 50;
+    let delayBetweenRoles = 2000;
+    
+    function type() {
+      if (charIndex < roles[roleIndex].length) {
+        typedTextSpan.textContent += roles[roleIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingSpeed);
+      } else {
+        setTimeout(erase, delayBetweenRoles);
+      }
+    }
+    
+    function erase() {
+      if (charIndex > 0) {
+        typedTextSpan.textContent = roles[roleIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, erasingSpeed);
+      } else {
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(type, typingSpeed + 500);
+      }
+    }
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      if (roles.length) setTimeout(type, 1000);
+    });
+
+    // Shrinking Navbar on Scroll
+    window.addEventListener("scroll", () => {
+      const navbar = document.getElementById("navbar");
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+
+    // Mobile navigation toggle menu
+    const navToggle = document.getElementById("nav-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    navToggle.addEventListener("click", () => {
+      navToggle.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll(".nav-links a").forEach(link => {
+      link.addEventListener("click", () => {
+        navToggle.classList.remove("active");
+        navLinks.classList.remove("active");
+      });
+    });
+
+    // Active link highlighting on scroll
+    const sections = document.querySelectorAll("section");
+    const navItems = document.querySelectorAll(".nav-links a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - 150)) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navItems.forEach(item => {
+        item.classList.remove("active");
+        if (item.getAttribute("href").slice(1) === current) {
+          item.classList.add("active");
+        }
+      });
+    });
+  </script>
 </body>
 </html>
